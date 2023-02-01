@@ -1,8 +1,11 @@
 namespace Exercise.ContentContext
 {
-  public class Content
-  {
-    public int id { get; set; }
+  public abstract class Content // faco com que eu nao permito implementar essa classe 
+  {  // new content() -> nao vai funcionar pois e abstrata
+    public Content() {
+      id = Guid.NewGuid();
+    }
+    public Guid id { get; set; }
 
     public string title { get; set; }
 
