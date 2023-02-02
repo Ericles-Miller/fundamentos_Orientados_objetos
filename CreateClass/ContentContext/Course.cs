@@ -11,21 +11,5 @@ namespace Exercise.ContentContext {
         public IList<Module> Modules { get; set; }
         
     }
-
-
-    public class Module {
-        public Module() {
-            lectures = new List<Lecture>();
-        }
-        public int Order { get; set; }
-
-        public string Title { get; set; }
-        public IList<Lecture> lectures {get; set;}
-    }   
-
-    public class Lecture {
-        public int Ordem { get; set; }
-
-        public string Title {get; set;}
-    }
+    
 }

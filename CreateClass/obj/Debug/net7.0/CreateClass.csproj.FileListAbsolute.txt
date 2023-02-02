@@ -1,0 +1,15 @@
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\bin\Debug\net7.0\CreateClass.exe
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\bin\Debug\net7.0\CreateClass.deps.json
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\bin\Debug\net7.0\CreateClass.runtimeconfig.json
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\bin\Debug\net7.0\CreateClass.dll
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\bin\Debug\net7.0\CreateClass.pdb
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\CreateClass.csproj.AssemblyReference.cache
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\CreateClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\CreateClass.AssemblyInfoInputs.cache
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\CreateClass.AssemblyInfo.cs
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\CreateClass.csproj.CoreCompileInputs.cache
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\CreateClass.dll
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\refint\CreateClass.dll
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\CreateClass.pdb
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\CreateClass.genruntimeconfig.cache
+C:\Users\EriclesMiller\Desktop\projectLeepMotion\fundamentos_Orientados_objetos\CreateClass\obj\Debug\net7.0\ref\CreateClass.dll
