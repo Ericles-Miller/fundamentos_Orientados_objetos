@@ -4,14 +4,16 @@ namespace MyApp
 {
   class Program {
     static void Main(string[] args) {
-      Console.WriteLine("Hello world!");
+      var articles = new List<Article>();
+      articles.Add(new Article("Artigo sobre OOP", "orientacao-objetos"));
+      articles.Add(new Article("Artigo sobre C#", "CSharp"));
+      articles.Add(new Article("Artigo sobre dotNet", "dotnet"));
 
-      var course = new Course();
-      foreach( var item in course.Modules) {
-        
+      foreach(var article in articles) {
+        Console.WriteLine(article.id);
+        Console.WriteLine(article.Title);
+        Console.WriteLine(article.Url);
       }
-
-
     }
 
   }
