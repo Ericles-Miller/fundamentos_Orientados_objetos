@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EriclesMiller\\Documents\\Git\\fundamentos_Orientados_objetos\\Blog\\Blog.csproj": {}
+    "C:\\Users\\EriclesMiller\\Documents\\Git\\Blog\\Blog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EriclesMiller\\Documents\\Git\\fundamentos_Orientados_objetos\\Blog\\Blog.csproj": {
+    "C:\\Users\\EriclesMiller\\Documents\\Git\\Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EriclesMiller\\Documents\\Git\\fundamentos_Orientados_objetos\\Blog\\Blog.csproj",
+        "projectUniqueName": "C:\\Users\\EriclesMiller\\Documents\\Git\\Blog\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "C:\\Users\\EriclesMiller\\Documents\\Git\\fundamentos_Orientados_objetos\\Blog\\Blog.csproj",
+        "projectPath": "C:\\Users\\EriclesMiller\\Documents\\Git\\Blog\\Blog.csproj",
         "packagesPath": "C:\\Users\\EriclesMiller\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EriclesMiller\\Documents\\Git\\fundamentos_Orientados_objetos\\Blog\\obj\\",
+        "outputPath": "C:\\Users\\EriclesMiller\\Documents\\Git\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EriclesMiller\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -8,7 +8,7 @@
     [Slug] VARCHAR(80) NOT NULL,
 */
 
-namespace Blog.Models {
+namespace Blog.Model {
     public class User {
         public int id { get; set; }
         
