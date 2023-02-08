@@ -1,20 +1,23 @@
-/*
-CREATE TABLE [Category] (
-    [Id] INT NOT NULL IDENTITY(1, 1),
-    [Name] VARCHAR(80) NOT NULL,
-    [Slug] VARCHAR(80) NOT NULL,
 
-    CONSTRAINT [PK_Category] PRIMARY KEY([Id]),
-    CONSTRAINT [UQ_Category_Slug] UNIQUE([Slug])
-)
-*/
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Blog.Model {
+    [Table("Category")]
     public class Category{
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
-
+        [Required]
+        [MaxLength(80)]
+        [MinLength(3)]
+        [Column("Name", TypeName ="NVARCHAR")]
         public string name { get; set; }
 
+        [Required]
+        [MaxLength(80)]
+        [MinLength(3)]
+        [Column("Slug", TypeName ="VARCHAR")]
         public string slug { get; set; }
     }
 }
