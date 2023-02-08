@@ -5,8 +5,15 @@
 */
 
 
+
+
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Blog.Model {
+    [Table("Tag")]
     public class Tag {
+        [Key] 
         public int id { get; set; }
 
         public string name { get; set; }
