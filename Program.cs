@@ -9,18 +9,29 @@ namespace Blog {
         static void Main(string [] args){
             Console.WriteLine("Hello, World!");
 
-            using(var context = new DataContext()){
-                var tag = new Tag{name = "Asp.Net", slug = "aspnet" };
-                context.Tags.Add(tag);
-                context.SaveChanges();
+             using(var context = new DataContext()){
+                // var tag = new Tag{name = "node", slug = "Nodejs" };
+                // context.Tags.Add(tag);
+                // context.SaveChanges();
 
-                // // LIST ALL TAGS
-                // var test = context.Tags.First();
+             
 
                 // // update tag
-                // tag = context.Tags.FirstOrDefault( item => item.id == 1);
+                //var tag = context.Tags.FirstOrDefault( item => item.id == 1);
                 // tag.name = ".Net";
                 // tag.slug = "dotnet";
+
+
+                //remove or delete
+                // context.Remove(tag);
+                // context.SaveChanges();
+
+                // to list 
+                var tags = context.Tags.ToList();
+                foreach( var tag in tags){
+                    Console.WriteLine(tag.name);
+                    Console.WriteLine(tag.slug);
+                }
 
             }
             
