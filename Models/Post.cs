@@ -12,16 +12,12 @@ CREATE TABLE [Post] (
     [LastUpdateDate] DATETIME NOT NULL DEFAULT(GETDATE()),
     */
 
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Blog.Model {
     public class Post {
         public int id { get; set; }
-
-        public int categoryId { get; set; }
-
-        public int authorId { get; set; }
-
         public string title { get; set; }
-
         public string summary { get; set; }
 
         public string body { get; set; }
@@ -31,5 +27,15 @@ namespace Blog.Model {
         public DateTime createDate { get; set; }
 
         public DateTime lastUpdateDate { get; set; }
+        
+        [ForeignKey("CategoryId")]
+        public int categoryId { get; set; } 
+
+        public Category Category {get; set;}
+
+        [ForeignKey("authorId")]
+        public int authorId { get; set; }
+        public User Author { get; set; }
     }
+
 }
